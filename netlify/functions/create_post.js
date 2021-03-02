@@ -22,6 +22,15 @@ exports.handler = async function(event) {
   newPost.id = docRef.id
   newPost.likes = 0
 
+  // { 
+  //   userId: userId,
+  //   username: username, 
+  //   imageUrl: imageUrl, 
+  //   created: firebase.firestore.FieldValue.serverTimestamp(),
+  //   id: ...,
+  //   likes: 0
+  // }
+
   return {
     statusCode: 200,
     body: JSON.stringify(newPost)

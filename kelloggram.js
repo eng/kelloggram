@@ -65,7 +65,7 @@ firebase.auth().onAuthStateChanged(async function(user) {
 // {
 //   id: 'abcdefg',
 //   username: 'brian',
-//   imageURL: 'https://images.unsplash.com/...',
+//   imageUrl: 'https://images.unsplash.com/...',
 //   likes: 12,
 //   comments: [
 //     { username: 'brian', text: 'i love tacos!' },
